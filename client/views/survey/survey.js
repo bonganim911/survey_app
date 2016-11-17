@@ -1,4 +1,4 @@
-Template.campaigns.rendered = function(){
+Template.survey.rendered = function(){
 
     // Set white background color for top navbar
     $('body').addClass('light-navbar');
@@ -60,7 +60,7 @@ Template.campaigns.rendered = function(){
     });
 };
 
-Template.campaigns.destroyed = function(){
+Template.survey.destroyed = function(){
     // Remove special class
     $('body').removeClass('light-navbar');
 };

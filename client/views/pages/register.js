@@ -13,7 +13,7 @@ if (Meteor.isClient) {
                 name: nameVar,
                 opt_in: opt_in
             });
-            Router.go('campaigns');
+            Router.go('login');
         }
     });
 }
